@@ -1,0 +1,8 @@
+game:
+  kgs_time: "Y"
+  safe_time: "5"
+  shell: ./run.sh
+lang: cn
+user:
+  account: ""
+  password: ""
