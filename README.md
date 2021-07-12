@@ -1,12 +1,12 @@
-简体中文 | [English](https://github.com/ZhuRongJian/gtp-linker/blob/master/us-en.md)
+简体中文 | [English](https://github.com/cleancode8/gtp-linker/blob/master/us-en.md)
 
-## 2020福州世界人工智能赛-AI连接器使用文档
+## 2021福州世界人工智能赛-AI连接器使用文档
 
-#### 请确保您的连接器为大会最新版本，当前版本v2.2。
+#### 请确保您的连接器为大会最新版本，当前版本v2.4。
 
 ### 一 下载连接器和文件解释
 
-> https://github.com/ZhuRongJian/gtp-linker/releases
+> https://github.com/cleancode8/gtp-linker/releases
 
 > 在资源包中有4个文件分别为：
 
@@ -21,6 +21,7 @@ gtp-linker_windows.exe  // Windows客户端
 
 ```
 game:
+  engine_keep: "300" // 引擎保持连接间隔(秒)
   kgs_time: "Y"   // 是否输出 kgs-time_setting
   safe_time: "3"  // 安全时间(秒)，会在 time_left 中自动扣减
   shell: ""       // AI Engine 启动命令文件
