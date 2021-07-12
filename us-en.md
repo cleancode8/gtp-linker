@@ -1,12 +1,12 @@
-[简体中文](https://github.com/ZhuRongJian/gtp-linker) | English
+[简体中文](https://github.com/cleancode8/gtp-linker) | English
 
-## Competition Notes for 2020 Fuzhou World AI Go Provisions 
+## Competition Notes for 2021 Fuzhou World AI Go Provisions 
 
-#### Please ensure your AI connector version is the latest, it's v2.2.
+#### Please ensure your AI connector version is the latest, it's v2.4.
 
 ### 1 GTP connector download and instructions for use
 
-> https://github.com/ZhuRongJian/gtp-linker/releases
+> https://github.com/cleancode8/gtp-linker/releases
 
 > 4 files included in the resource：
 
@@ -21,6 +21,7 @@ gtp-linker_windows.exe  // Windows client
 
 ```
 game:
+  engine_keep: "300" //keep engine alive interval (seconds)
   kgs_time: "Y"   // is or not output kgs-time_setting
   safe_time: "3"  // safe time(s)，will be reduced in time_left
   shell: ""       // AI Engine 
