@@ -101,7 +101,7 @@ boardsize
 time_settings
 komi
 play
-gen_move
+genmove
 time_left
 kgs-time_settings
 ```
